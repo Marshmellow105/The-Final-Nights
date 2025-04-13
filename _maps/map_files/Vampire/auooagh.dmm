@@ -41,6 +41,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/space)
+"ca" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/plating/toilet,
+/area/space)
 "cE" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
@@ -133,6 +139,16 @@
 /area/space)
 "eM" = (
 /turf/closed/wall/vampwall/brick/low/window,
+/area/space)
+"eQ" = (
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#574d46"
+	},
+/turf/open/floor/plating/toilet,
 /area/space)
 "eR" = (
 /obj/effect/decal/bordur{
@@ -465,6 +481,12 @@
 /area/space)
 "sJ" = (
 /turf/open/floor/plating/parquetry/old,
+/area/space)
+"tr" = (
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/turf/open/floor/plating/concrete,
 /area/space)
 "ty" = (
 /obj/structure/stairs/east,
@@ -912,6 +934,21 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk,
+/area/space)
+"QV" = (
+/obj/effect/decal/stock,
+/obj/effect/decal/stock{
+	pixel_x = 10
+	},
+/obj/effect/decal/stock{
+	pixel_x = -10
+	},
+/obj/machinery/shower{
+	dir = 4;
+	pixel_x = -2
+	},
+/obj/structure/curtain,
+/turf/open/floor/plating/vampcanal,
 /area/space)
 "RH" = (
 /obj/structure/chair/comfy/beige{
@@ -170527,7 +170564,7 @@ sJ
 VG
 xV
 eM
-LP
+tr
 eM
 xV
 VG
@@ -172586,11 +172623,11 @@ sJ
 TJ
 sJ
 xV
-tD
-tD
-tD
-tD
-tD
+QV
+ca
+xV
+sJ
+sJ
 xV
 tD
 tD
@@ -172843,11 +172880,11 @@ sJ
 TJ
 sJ
 xV
-tD
-tD
-tD
-tD
-tD
+xV
+eQ
+xV
+sJ
+sJ
 xV
 tD
 tD
@@ -173100,10 +173137,10 @@ sJ
 TJ
 sJ
 xV
-tD
-tD
-tD
-tD
+cE
+sJ
+xV
+FM
 xV
 xV
 tD
@@ -173356,11 +173393,11 @@ xV
 sJ
 TJ
 sJ
-xV
-tD
-tD
-tD
-tD
+CO
+sJ
+sJ
+sJ
+sJ
 xV
 tD
 tD
@@ -173614,10 +173651,10 @@ sJ
 TJ
 sJ
 xV
-tD
-tD
-tD
-tD
+sJ
+sJ
+sJ
+sJ
 xV
 tD
 tD
@@ -173871,10 +173908,10 @@ sJ
 sJ
 sJ
 xV
-tD
-tD
-tD
-tD
+sJ
+sJ
+sJ
+sJ
 xV
 tD
 tD
@@ -174128,10 +174165,10 @@ sJ
 sJ
 sJ
 xV
-tD
-tD
-tD
-tD
+sJ
+sJ
+sJ
+sJ
 xV
 tD
 tD
