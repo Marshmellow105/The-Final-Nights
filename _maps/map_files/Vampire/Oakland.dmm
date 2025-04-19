@@ -1224,6 +1224,11 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/sheet/mineral/diamond,
+/obj/item/stack/sheet/mineral/gold,
+/obj/item/cockclock{
+	color = "#e0b438";
+	name = "\improper dolex wrist watch"
+	},
 /turf/open/floor/plating/parquetry/old,
 /area/space)
 "ia" = (
@@ -2084,6 +2089,10 @@
 /obj/structure/bed,
 /obj/item/bedsheet/random,
 /turf/open/floor/plating/parquetry,
+/area/space)
+"nH" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/sidewalk,
 /area/space)
 "nL" = (
 /obj/structure/railing/metal,
@@ -4514,6 +4523,16 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/space)
+"Dg" = (
+/obj/structure/barrels/rand{
+	pixel_y = 8;
+	pixel_x = 8
+	},
+/obj/structure/barrels/rand{
+	pixel_x = -4
+	},
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "Dk" = (
 /obj/structure/lattice/pentex,
 /obj/effect/turf_decal/siding/white{
@@ -6717,6 +6736,10 @@
 /area/space)
 "Ro" = (
 /obj/effect/decal/bordur/corner,
+/turf/open/floor/plating/sidewalk,
+/area/space)
+"Rq" = (
+/obj/structure/barrels/rand,
 /turf/open/floor/plating/sidewalk,
 /area/space)
 "Rs" = (
@@ -73472,9 +73495,9 @@ qg
 DU
 DU
 DU
-DU
-DU
-DU
+nH
+gB
+gB
 Pz
 vE
 Hp
@@ -73879,8 +73902,8 @@ DU
 DU
 DU
 DU
-DU
-DU
+Rq
+Dg
 Et
 Xw
 DU
@@ -74658,7 +74681,7 @@ su
 zG
 kz
 mO
-Hp
+nV
 Hp
 tR
 Yd
