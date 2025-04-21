@@ -5,38 +5,38 @@
 	"map_file": "Oakland.dmm",
 	"traits": [
 		{
-			"Down": -1
-			"Baseturf": "/turf/open/floor/plating"
-			'linkage": "cross"
+			"up": 1,
+			"Baseturf": "/turf/open/floor/plating",
+			"Linkage": "cross"
 		},
 		{
-			"up": 1
-			"Down": -1
-			"Baseturf": "/turf/open/openspace"
-			'linkage": "cross"
+			"up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "cross"
 		},
 		{
-			"up": 1
-			"Down": -1
-			"Baseturf": "/turf/open/openspace"
-			'linkage": "cross"
+			"up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "cross"
 		},
 		{
-			"up": 1
-			"Down": -1
-			"Baseturf": "/turf/open/openspace"
-			'linkage": "cross"
+			"up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "cross"
 		},
 		{
-			"up": 1
-			"Down": -1
-			"Baseturf": "/turf/open/openspace"
-			'linkage": "cross"
+			"up": 1,
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "cross"
 		},
 		{
-			"up": 1
-			"Baseturf": "/turf/open/floor/plating"
-			'linkage": "cross"
+			"Down": -1,
+			"Baseturf": "/turf/open/floor/plating",
+			"Linkage": "cross"
 		}
 	]
 }
