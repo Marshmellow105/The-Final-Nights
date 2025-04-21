@@ -15,6 +15,10 @@ endmap
 
 map kindredcity
 	votable
+endmap
+
+map oakland
+	votable
 	default
 endmap
 
