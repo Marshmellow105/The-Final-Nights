@@ -263,7 +263,7 @@
 /obj/effect/decal/bordur/corner{
 	dir = 1
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "bd" = (
 /obj/structure/stairs/west,
@@ -2962,7 +2962,7 @@
 /obj/effect/decal/bordur/corner{
 	dir = 8
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "kN" = (
 /obj/effect/decal/bordur/corner{
@@ -3864,7 +3864,7 @@
 /obj/effect/decal/bordur{
 	dir = 8
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "nV" = (
 /obj/item/kirbyplants/random,
@@ -4424,7 +4424,7 @@
 /area/vtm/interior/millennium_tower)
 "pW" = (
 /obj/effect/decal/bordur,
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "pX" = (
 /turf/open/floor/mineral/plastitanium,
@@ -4634,7 +4634,7 @@
 /turf/open/floor/plating/vampcanalplating,
 /area/space)
 "qB" = (
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "qD" = (
 /turf/open/floor/plating/vampplating/mono,
@@ -6836,7 +6836,7 @@
 	pixel_y = 11;
 	pixel_x = 8
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "yu" = (
 /obj/structure/chair/plastic{
@@ -7673,7 +7673,7 @@
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "Bu" = (
 /obj/effect/decal/asphaltline/alt{
@@ -8489,7 +8489,7 @@
 /obj/effect/decal/bordur/corner{
 	dir = 4
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "EI" = (
 /obj/structure/table/wood/poker,
@@ -9492,7 +9492,7 @@
 	pixel_y = 13;
 	pixel_x = -16
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "Ii" = (
 /obj/structure/railing/metal{
@@ -9831,7 +9831,7 @@
 /obj/effect/decal/bordur{
 	dir = 1
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "Ju" = (
 /obj/structure/vampdoor/simple{
@@ -12338,7 +12338,7 @@
 /area/vtm/interior/strip)
 "Su" = (
 /obj/effect/decal/bordur/corner,
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "Sv" = (
 /obj/effect/decal/bordur/corner{
@@ -13512,7 +13512,7 @@
 /obj/effect/decal/bordur{
 	dir = 4
 	},
-/turf/open/water,
+/turf/open/floor/plating/vampocean,
 /area/vtm/interior/millennium_tower/f4)
 "Xf" = (
 /obj/structure/vampdoor/camarilla{
