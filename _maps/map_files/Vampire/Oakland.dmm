@@ -1684,6 +1684,9 @@
 /area/vtm/interior/bianchiBank)
 "eX" = (
 /obj/effect/decal/wallpaper/gold/low,
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "princecurtain"
+	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f4)
 "eY" = (
@@ -10607,6 +10610,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/apartment)
+"Ea" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "princecurtain"
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/millennium_tower/f4)
 "Eb" = (
 /obj/effect/decal/support,
 /turf/open/floor/plating/granite/black,
@@ -17543,6 +17552,20 @@
 /obj/structure/vampdoor/glass/laundromat,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
+"Yi" = (
+/obj/effect/turf_decal/siding/white{
+	color = "#828282";
+	dir = 8
+	},
+/obj/machinery/button/curtain{
+	pixel_y = 33;
+	id = "princecurtain"
+	},
+/turf/open/floor/plasteel/stairs/medium{
+	dir = 4;
+	color = "#919191"
+	},
+/area/vtm/interior/millennium_tower/f4)
 "Yj" = (
 /obj/structure/lattice/pentex,
 /turf/open/floor/plasteel/dark,
@@ -203052,13 +203075,13 @@ LC
 LC
 LC
 gv
-jw
-jw
+Ea
+Ea
 gv
 gv
 gv
-jw
-jw
+Ea
+Ea
 gv
 LC
 DT
@@ -203860,7 +203883,7 @@ LC
 LC
 LC
 hX
-jH
+Yi
 SU
 hz
 WA
