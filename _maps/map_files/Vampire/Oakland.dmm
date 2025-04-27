@@ -1375,6 +1375,13 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/police)
+"ef" = (
+/obj/structure/table/wood/fancy/black,
+/obj/machinery/button/curtain{
+	id = "princeroom"
+	},
+/turf/open/floor/carpet/royalblack,
+/area/vtm/interior/millennium_tower/f4)
 "eg" = (
 /turf/open/floor/plasteel/stairs/medium{
 	color = "#919191"
@@ -6330,6 +6337,20 @@
 /obj/item/clothing/under/suit/black_really,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/laundromat)
+"rR" = (
+/obj/effect/turf_decal/siding/white{
+	color = "#828282";
+	dir = 8
+	},
+/obj/machinery/button/curtain{
+	pixel_y = 33;
+	id = "princecurtain"
+	},
+/turf/open/floor/plasteel/stairs/medium{
+	dir = 4;
+	color = "#919191"
+	},
+/area/vtm/interior/millennium_tower/f4)
 "rS" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -9629,7 +9650,7 @@
 /area/space)
 "Bk" = (
 /obj/structure/curtain/bounty{
-	pixel_y = 10
+	pixel_y = 15
 	},
 /turf/closed/wall/vampwall/low/window,
 /area/vtm/interior/laundromat)
@@ -10138,7 +10159,7 @@
 /area/space)
 "CG" = (
 /obj/structure/curtain/bounty{
-	pixel_y = 10
+	pixel_y = 15
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f3)
@@ -10610,12 +10631,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/apartment)
-"Ea" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = "princecurtain"
-	},
-/turf/closed/wall/vampwall/rich/low/window/reinforced,
-/area/vtm/interior/millennium_tower/f4)
 "Eb" = (
 /obj/effect/decal/support,
 /turf/open/floor/plating/granite/black,
@@ -14150,6 +14165,12 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/apartment)
+"NU" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "princeroom"
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/millennium_tower/f4)
 "NV" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/green,
@@ -15201,7 +15222,7 @@
 /area/vtm/interior/laundromat)
 "Ri" = (
 /obj/structure/curtain/bounty{
-	pixel_y = 10
+	pixel_y = 15
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f2)
@@ -16032,6 +16053,13 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower)
+"TH" = (
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "princecurtain";
+	pixel_y = 15
+	},
+/turf/closed/wall/vampwall/rich/low/window/reinforced,
+/area/vtm/interior/millennium_tower/f4)
 "TI" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -17034,7 +17062,7 @@
 /area/vtm/interior/laundromat)
 "WJ" = (
 /obj/structure/curtain/bounty{
-	pixel_y = 10
+	pixel_y = 15
 	},
 /turf/closed/wall/vampwall/bar/low/window,
 /area/vtm/interior/shop)
@@ -17552,20 +17580,6 @@
 /obj/structure/vampdoor/glass/laundromat,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
-"Yi" = (
-/obj/effect/turf_decal/siding/white{
-	color = "#828282";
-	dir = 8
-	},
-/obj/machinery/button/curtain{
-	pixel_y = 33;
-	id = "princecurtain"
-	},
-/turf/open/floor/plasteel/stairs/medium{
-	dir = 4;
-	color = "#919191"
-	},
-/area/vtm/interior/millennium_tower/f4)
 "Yj" = (
 /obj/structure/lattice/pentex,
 /turf/open/floor/plasteel/dark,
@@ -203075,13 +203089,13 @@ LC
 LC
 LC
 gv
-Ea
-Ea
+TH
+TH
 gv
 gv
 gv
-Ea
-Ea
+TH
+TH
 gv
 LC
 DT
@@ -203090,7 +203104,7 @@ jw
 jw
 gv
 gv
-jw
+NU
 gv
 gv
 LC
@@ -203292,7 +203306,7 @@ qy
 qy
 hX
 ZL
-ZL
+ef
 xJ
 gv
 LC
@@ -203883,7 +203897,7 @@ LC
 LC
 LC
 hX
-Yi
+rR
 SU
 hz
 WA
@@ -204103,7 +204117,7 @@ Mu
 Mu
 UA
 Cx
-jw
+NU
 LC
 LC
 LC
