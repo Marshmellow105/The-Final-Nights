@@ -11358,6 +11358,11 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower)
+"lIX" = (
+/obj/structure/table,
+/obj/effect/decal/wallpaper/paper/rich/low,
+/turf/closed/wall/vampwall/painted/low,
+/area/space)
 "lJo" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#828282";
@@ -19613,6 +19618,10 @@
 "tPL" = (
 /turf/closed/wall/vampwall/painted/low/window/reinforced,
 /area/vtm/interior/bianchiBank)
+"tPY" = (
+/obj/effect/decal/wallpaper/paper/rich/low,
+/turf/closed/wall/vampwall/painted/low/window,
+/area/space)
 "tQk" = (
 /obj/structure/foodrack{
 	dir = 4;
@@ -137991,7 +138000,7 @@ gzW
 tot
 tot
 tot
-gzW
+nAG
 qxv
 qxv
 qxv
@@ -138193,7 +138202,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 qwj
@@ -138395,7 +138404,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -138597,7 +138606,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -138799,7 +138808,7 @@ gzW
 gzW
 gzW
 hTP
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -138997,7 +139006,7 @@ tys
 tys
 tys
 tys
-xkm
+tPY
 wOP
 wOP
 qxv
@@ -139199,7 +139208,7 @@ tys
 tys
 tys
 tys
-xkm
+tPY
 kMd
 kMd
 qxv
@@ -139401,7 +139410,7 @@ tys
 tys
 tys
 tys
-gzW
+nAG
 cOD
 cOD
 qxv
@@ -139603,7 +139612,7 @@ tys
 tys
 tys
 tys
-xkm
+tPY
 kMd
 kMd
 qxv
@@ -139805,7 +139814,7 @@ tys
 tys
 tys
 tys
-xkm
+tPY
 pxH
 pxH
 qxv
@@ -140011,7 +140020,7 @@ gzW
 gzW
 gzW
 hTP
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -140213,7 +140222,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -140415,7 +140424,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 vfl
@@ -140617,7 +140626,7 @@ gzW
 tot
 tot
 tot
-hTP
+lIX
 qxv
 qxv
 lDu
@@ -140819,7 +140828,7 @@ gzW
 tot
 tot
 tot
-gzW
+nAG
 qxv
 qxv
 qxv
