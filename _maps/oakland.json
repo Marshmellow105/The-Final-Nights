@@ -7,36 +7,36 @@
 		{
 			"Up": 1,
 			"Baseturf": "/turf/open/floor/plating",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		},
 		{
 			"Up": 1,
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		},
 		{
 			"Up": 1,
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		},
 		{
 			"Up": 1,
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		},
 		{
 			"Up": 1,
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		},
 		{
 			"Down": -1,
 			"Baseturf": "/turf/open/floor/plating",
-			"Linkage": "cross"
+			"Linkage": "Cross"
 		}
 	]
 }
