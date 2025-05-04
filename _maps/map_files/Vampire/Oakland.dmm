@@ -4288,6 +4288,13 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
+"dKq" = (
+/obj/structure/big_vamprocks{
+	icon_state = "rock4"
+	},
+/obj/effect/decal/fakelattice,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/interior)
 "dKC" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -20946,6 +20953,15 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/apartment)
+"sQB" = (
+/obj/structure/big_vamprocks{
+	icon_state = "rock3";
+	pixel_y = 1;
+	pixel_x = -13
+	},
+/obj/effect/decal/fakelattice,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/interior)
 "sQJ" = (
 /obj/structure/closet/cabinet,
 /obj/machinery/light/small{
@@ -106239,10 +106255,10 @@ veZ
 mrg
 veZ
 twk
-veZ
+grP
 geY
 veZ
-xpq
+dKq
 ycd
 fwq
 fwq
@@ -106442,9 +106458,9 @@ veZ
 xwC
 veZ
 geY
-veZ
+grP
 geY
-mwZ
+sQB
 ycd
 fwq
 fwq
