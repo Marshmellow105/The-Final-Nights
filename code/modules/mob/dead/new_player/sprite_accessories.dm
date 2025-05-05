@@ -2001,6 +2001,56 @@
 	icon_state = "tank_fire"
 	gender = NEUTER
 
+/datum/sprite_accessory/undershirt/tshirt
+	name = "T-Shirt (Greyscale)"
+	icon_state = "tshirt"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/polo
+	name = "Polo Shirt (Greyscale)"
+	icon_state = "polo"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/shortsleeve
+	name = "Short-sleeved shirt (Greyscale)"
+	icon_state = "shortsleeve"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/tanktop
+	name = "Tank Top (Greyscale)"
+	icon_state = "tank"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/oneshoulder
+	name = "One Shoulder (Greyscale)"
+	icon_state = "oneshoulder"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/turtle
+	name = "Turtleneck (Greyscale)"
+	icon_state = "turtle"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/turtle_crop
+	name = "Cropped Turtleneck (Greyscale)"
+	icon_state = "turtle_crop"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/turtle_sleeveless
+	name = "Sleeveless Turtleneck (Greyscale)"
+	icon_state = "turtle_sleeveless"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/buttondown
+	name = "Button-down Shirt (Greyscale)"
+	icon_state = "button"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/buttondown_short
+	name = "Short Sleeve Button-Down (Greyscale)"
+	icon_state = "button_short"
+	gender = NEUTER
+
 /datum/sprite_accessory/undershirt/tank_grey
 	name = "Tank Top (Grey)"
 	icon_state = "tank_grey"
