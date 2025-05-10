@@ -342,14 +342,22 @@
 	dir = 1
 	},
 /obj/machinery/light{
-	dir = 4;
-	light_color = "#6488EA"
+	dir = 4
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower)
 "arx" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/police/upstairs)
+"arE" = (
+/obj/structure/railing/metal,
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/space)
 "asW" = (
 /obj/structure/railing/metal{
 	layer = 4.1
@@ -7108,15 +7116,6 @@
 "gnp" = (
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/strip)
-"gnU" = (
-/obj/effect/decal/bordur/corner{
-	dir = 8
-	},
-/obj/structure/railing/metal{
-	dir = 9
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/space)
 "gnV" = (
 /obj/item/chair,
 /turf/open/floor/plating/concrete,
@@ -7574,7 +7573,7 @@
 "gJQ" = (
 /obj/machinery/light{
 	dir = 8;
-	light_color = "#6488EA"
+	pixel_y = 11
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower)
@@ -7677,15 +7676,6 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/park)
-"gQE" = (
-/obj/effect/decal/bordur{
-	dir = 1
-	},
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/space)
 "gQF" = (
 /obj/structure/closet/mini_fridge,
 /obj/item/reagent_containers/food/drinks/waterbottle,
@@ -8178,6 +8168,15 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/apartment)
+"hjo" = (
+/obj/structure/railing/metal,
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/turf/open/floor/plasteel/stairs/medium{
+	dir = 4
+	},
+/area/space)
 "hjA" = (
 /obj/structure/closet/crate/freezer/surplus_limbs/organs,
 /turf/open/floor/plasteel/freezer,
@@ -8953,15 +8952,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/vtm/interior/millennium_tower/f4)
-"hXa" = (
-/obj/effect/decal/bordur{
-	dir = 8
-	},
-/obj/structure/railing/metal{
-	dir = 8
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/space)
 "hXU" = (
 /obj/structure/table/wood,
 /obj/item/melee/vampirearms/sabre{
@@ -13356,7 +13346,11 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
 "lRf" = (
-/turf/open/floor/plasteel/stairs/medium{
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plasteel/stairs{
 	dir = 4
 	},
 /area/space)
@@ -13392,6 +13386,10 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/space)
+"lTZ" = (
+/obj/effect/decal/wallpaper/grey,
+/turf/closed/wall/vampwall/rich/old,
+/area/vtm/interior/techshop)
 "lUe" = (
 /obj/structure/railing/metal{
 	dir = 8
@@ -16785,15 +16783,6 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plating/circled,
 /area/space)
-"oHj" = (
-/obj/structure/railing/metal,
-/obj/structure/railing/metal{
-	dir = 1
-	},
-/turf/open/floor/plasteel/stairs/medium{
-	dir = 8
-	},
-/area/space)
 "oHB" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#828282";
@@ -19877,8 +19866,7 @@
 	},
 /mob/living/carbon/human/npc/guard,
 /obj/machinery/light{
-	dir = 4;
-	light_color = "#6488EA"
+	dir = 4
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower)
@@ -20625,7 +20613,7 @@
 /area/vtm/park)
 "rUE" = (
 /obj/effect/decal/wallpaper/grey/low,
-/turf/closed/wall/vampwall/painted/low/window,
+/turf/closed/wall/vampwall/rich/old/low/window,
 /area/vtm/interior/techshop)
 "rUS" = (
 /obj/effect/decal/coastline/corner{
@@ -20924,8 +20912,7 @@
 	},
 /mob/living/carbon/human/npc/guard,
 /obj/machinery/light{
-	dir = 4;
-	light_color = "#6488EA"
+	dir = 4
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower)
@@ -60102,13 +60089,13 @@ fwq
 fwq
 fwq
 fwq
-slr
-slr
-slr
-slr
-slr
-slr
-slr
+xgR
+xgR
+xgR
+xgR
+xgR
+xgR
+xgR
 fwq
 fwq
 fwq
@@ -60304,13 +60291,13 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 siF
 qKv
 jAA
 qKv
 vQD
-slr
+xgR
 fwq
 fwq
 fwq
@@ -60506,13 +60493,13 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 iAb
 qnp
 hjU
 pWG
 dMz
-slr
+xgR
 fwq
 fwq
 fwq
@@ -60708,13 +60695,13 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 iic
 qKv
 uWv
 kVM
 tye
-slr
+xgR
 fwq
 fwq
 fwq
@@ -60910,13 +60897,13 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 rMR
 qKv
 wDj
 qnp
 hnv
-slr
+xgR
 fwq
 fwq
 fwq
@@ -61112,13 +61099,13 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 qdW
 dqI
 qKv
 qKv
 oSJ
-slr
+xgR
 fwq
 fwq
 ilX
@@ -61314,7 +61301,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 elj
 saV
 qKv
@@ -61515,9 +61502,9 @@ fwq
 fwq
 fwq
 fwq
-slr
-slr
-mRl
+xgR
+xgR
+lTZ
 klo
 qnp
 pqf
@@ -61711,18 +61698,18 @@ fwq
 fwq
 fwq
 fwq
-slr
-slr
-slr
-slr
-slr
-slr
-mRl
+xgR
+xgR
+xgR
+xgR
+xgR
+xgR
+lTZ
 poy
-slr
-mRl
+xgR
+lTZ
 aUz
-slr
+xgR
 xgR
 xbC
 uNx
@@ -61913,7 +61900,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 bcj
 fJg
 aPw
@@ -62115,7 +62102,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 fPS
 ihk
 fPS
@@ -62317,7 +62304,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 knm
 ihk
 knm
@@ -62519,7 +62506,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 knm
 ihk
 ffS
@@ -62721,13 +62708,13 @@ fwq
 fwq
 fwq
 fwq
-slr
-slr
-slr
-slr
-slr
-slr
-mRl
+xgR
+xgR
+xgR
+xgR
+xgR
+xgR
+lTZ
 feo
 qKv
 cDY
@@ -62929,7 +62916,7 @@ fwq
 fwq
 fwq
 fwq
-mRl
+lTZ
 mHU
 bmA
 iNR
@@ -63131,12 +63118,12 @@ fwq
 fwq
 fwq
 fwq
-slr
-slr
-slr
-slr
-slr
-slr
+xgR
+xgR
+xgR
+xgR
+xgR
+xgR
 xgR
 ilX
 vSt
@@ -140018,26 +140005,26 @@ tys
 tys
 tys
 tys
-gnU
-hXa
-hXa
-hXa
-hXa
-hXa
-hXa
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 oqz
@@ -140220,26 +140207,26 @@ tys
 tys
 tys
 tys
-gQE
-tvm
-tvm
-tvm
-tvm
-tvm
-tvm
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 oqz
@@ -140422,26 +140409,26 @@ tys
 tys
 tys
 tys
-gQE
-tvm
-tvm
-tvm
-tvm
-tvm
-tvm
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 oqz
@@ -140624,27 +140611,27 @@ tys
 tys
 tys
 tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 gzW
 gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
 oqz
 oqz
 oqz
@@ -140826,25 +140813,25 @@ tys
 tys
 tys
 tys
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 gzW
 oqz
 oqz
@@ -141028,26 +141015,26 @@ tys
 tys
 tys
 tys
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 oqz
@@ -141230,26 +141217,26 @@ tys
 tys
 tys
 tys
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 mnn
@@ -141432,26 +141419,26 @@ tys
 tys
 tys
 tys
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 tys
@@ -141634,25 +141621,25 @@ tys
 tys
 tys
 tys
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 gzW
 gzW
 gzW
@@ -141836,25 +141823,25 @@ tys
 tys
 tys
 tys
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 nBC
 jup
 oqz
@@ -142039,24 +142026,24 @@ tys
 tys
 tys
 tys
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 nBC
 xxM
 oqz
@@ -142241,24 +142228,24 @@ tys
 tys
 tys
 tys
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-oqz
-oqz
-oqz
-oqz
-oqz
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 gzW
 gzW
 gzW
@@ -142443,25 +142430,25 @@ tys
 tys
 tys
 tys
-oqz
-oqz
-oqz
-oqz
-oqz
-oqz
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
-gzW
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
+tys
 oqz
 oqz
 oqz
@@ -143879,8 +143866,8 @@ oqz
 tvm
 tvm
 tvm
-oHj
-iYo
+tvm
+tvm
 tvm
 tvm
 tys
@@ -144079,12 +144066,12 @@ oqz
 oqz
 oqz
 tvm
-dOJ
-hdz
-uZe
-hdz
-cJV
-kdm
+tvm
+tvm
+arE
+iYo
+tvm
+tvm
 tys
 tys
 tys
@@ -144281,12 +144268,12 @@ oqz
 oqz
 oqz
 tvm
-loU
-yjO
-yjO
-yjO
-ocs
-iYo
+dOJ
+hdz
+uZe
+hdz
+cJV
+kdm
 tys
 tys
 tys
@@ -144484,11 +144471,11 @@ oqz
 oqz
 tvm
 loU
-kGh
 yjO
-kGh
+yjO
+yjO
 ocs
-kdm
+iYo
 tys
 tys
 tys
@@ -144686,11 +144673,11 @@ oqz
 oqz
 tvm
 loU
+kGh
 yjO
-yjO
-yjO
+kGh
 ocs
-iYo
+kdm
 tys
 tys
 tys
@@ -144887,12 +144874,12 @@ tys
 tys
 oqz
 tvm
-sIy
-bnn
-bnn
-bnn
-rdv
-kdm
+loU
+yjO
+yjO
+yjO
+ocs
+iYo
 tys
 tys
 tys
@@ -145089,12 +145076,12 @@ tys
 tys
 tys
 tys
-tvm
-tvm
-tvm
-tvm
-tvm
-tvm
+sIy
+bnn
+bnn
+bnn
+rdv
+kdm
 tys
 tys
 tys
@@ -185174,7 +185161,7 @@ tys
 tys
 ucj
 xEp
-lRf
+hjo
 vnb
 xEp
 xEp
