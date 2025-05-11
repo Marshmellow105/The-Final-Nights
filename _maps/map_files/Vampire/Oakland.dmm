@@ -10523,6 +10523,12 @@
 	},
 /turf/open/water,
 /area/vtm/interior/millennium_tower)
+"iMD" = (
+/obj/item/toy/dummy{
+	pixel_x = -4
+	},
+/turf/open/floor/plating/toilet,
+/area/space)
 "iMJ" = (
 /obj/item/vampirebook,
 /turf/open/floor/plating/vampdirt,
@@ -26966,6 +26972,12 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/millennium_tower/f4)
+"whb" = (
+/obj/machinery/light/broken{
+	pixel_y = 31
+	},
+/turf/open/floor/plating/toilet,
+/area/space)
 "whu" = (
 /obj/structure/chair/greyscale,
 /turf/open/floor/plating/concrete,
@@ -62087,7 +62099,7 @@ fwq
 fwq
 fwq
 pEn
-noX
+guf
 guf
 guf
 pEn
@@ -62289,9 +62301,9 @@ fwq
 fwq
 fwq
 pEn
+whb
+iMD
 guf
-noX
-noX
 xYw
 ttY
 vmp
@@ -62493,7 +62505,7 @@ fwq
 pEn
 guf
 guf
-noX
+guf
 eTV
 ldN
 nGO
