@@ -884,6 +884,17 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plating/vampcarpet,
 /area/vtm/interior)
+"aIs" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/white{
+	color = "#828282";
+	dir = 1
+	},
+/obj/structure/curtain/bounty{
+	pixel_y = -27
+	},
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f3)
 "aIM" = (
 /obj/effect/decal/bordur{
 	dir = 6
@@ -2055,6 +2066,10 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 5;
 	color = "#631818"
+	},
+/obj/structure/curtain/bounty{
+	pixel_y = 15;
+	pixel_x = 32
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
@@ -5337,6 +5352,10 @@
 	dir = 4;
 	color = "#631818"
 	},
+/obj/structure/curtain/bounty{
+	pixel_y = 15;
+	pixel_x = 32
+	},
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
 "enu" = (
@@ -7510,6 +7529,9 @@
 /area/vtm/park)
 "gjK" = (
 /obj/structure/fluff/hedge,
+/obj/structure/curtain/bounty{
+	pixel_y = -27
+	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/bianchiBank)
 "gky" = (
@@ -8385,8 +8407,7 @@
 /area/vtm/interior/chantry)
 "hav" = (
 /obj/structure/curtain/bounty{
-	icon_state = "bounty-closed";
-	open = 0
+	pixel_y = 15
 	},
 /turf/open/floor/carpet/purple,
 /area/vtm/interior/strip)
@@ -9173,6 +9194,10 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 6;
 	color = "#631818"
+	},
+/obj/structure/curtain/bounty{
+	pixel_y = 15;
+	pixel_x = 32
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
@@ -12346,6 +12371,10 @@
 /obj/structure/chair/sofa/corp{
 	color = "#CD5C5C";
 	dir = 4
+	},
+/obj/structure/curtain/bounty{
+	pixel_y = 15;
+	pixel_x = -32
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/bianchiBank)
@@ -17768,6 +17797,9 @@
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/interior/bianchiBank)
 "oBM" = (
+/obj/structure/curtain/bounty{
+	pixel_y = 15
+	},
 /turf/closed/wall/vampwall/bar/low/window,
 /area/vtm/interior/strip)
 "oBQ" = (
@@ -24305,6 +24337,17 @@
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
+"tQu" = (
+/obj/effect/turf_decal/siding/white{
+	color = "#828282";
+	dir = 1
+	},
+/obj/structure/fluff/hedge,
+/obj/structure/curtain/bounty{
+	pixel_y = -27
+	},
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f3)
 "tQw" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -26296,6 +26339,10 @@
 	},
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 8
+	},
+/obj/structure/curtain/bounty{
+	pixel_y = 15;
+	pixel_x = 32
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
@@ -175585,7 +175632,7 @@ dXL
 vPp
 nCe
 mjs
-rKO
+tQu
 iXz
 tys
 tys
@@ -175787,7 +175834,7 @@ gUa
 kSS
 nCe
 kmU
-rHH
+aIs
 iXz
 tys
 tys
@@ -175989,7 +176036,7 @@ dXL
 fUd
 fVI
 kmU
-rHH
+aIs
 iXz
 tys
 tys
@@ -176390,9 +176437,9 @@ iMS
 qUg
 qUg
 qUg
-qUg
+iMS
 kHe
-qUg
+iMS
 iMS
 jUo
 iMS
