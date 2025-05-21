@@ -1060,6 +1060,10 @@
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/techshop)
+"aPy" = (
+/obj/structure/closet,
+/turf/open/floor/plating/toilet,
+/area/space)
 "aPA" = (
 /obj/structure/closet/crate,
 /obj/item/storage/pill_bottle/penacid,
@@ -1388,6 +1392,11 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower)
+"bdO" = (
+/obj/structure/table,
+/obj/vampire_computer,
+/turf/open/floor/plating/vampplating,
+/area/space)
 "bdY" = (
 /obj/machinery/mineral/equipment_vendor/fastfood/snacks,
 /turf/open/floor/plating/vampplating/mono,
@@ -5076,6 +5085,17 @@
 /obj/effect/decal/bordur/corner,
 /turf/open/floor/plating/sidewalk,
 /area/space)
+"dVo" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4;
+	color = "#636363"
+	},
+/obj/structure/vampdoor{
+	lock_id = "pentex";
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "dVK" = (
 /obj/structure/railing/metal{
 	dir = 8
@@ -7830,6 +7850,12 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/plating/circled,
 /area/vtm/interior)
+"gsK" = (
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "gsS" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/parquetry/old,
@@ -8809,6 +8835,10 @@
 	},
 /turf/closed/wall/vampwall/rich/low/window/reinforced,
 /area/vtm/interior/millennium_tower/f4)
+"hil" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/plating/vampplating,
+/area/space)
 "hio" = (
 /obj/structure/fluff/hedge,
 /turf/open/floor/carpet,
@@ -9900,9 +9930,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
-"iiM" = (
-/turf/closed/wall/vampwall/rich/old/low/window/reinforced,
-/area/space)
 "ijc" = (
 /obj/item/kirbyplants{
 	icon_state = "plant5";
@@ -10160,6 +10187,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f4)
+"iss" = (
+/obj/structure/table,
+/turf/open/floor/plating/vampplating,
+/area/space)
 "isz" = (
 /obj/effect/decal/stock,
 /turf/open/floor/plating/asphalt,
@@ -10822,6 +10853,15 @@
 /obj/effect/decal/wallpaper/light/low,
 /turf/closed/wall/vampwall/market/low/window,
 /area/vtm/interior/shop)
+"iQp" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1;
+	color = "#636363"
+	},
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/space)
 "iQv" = (
 /obj/structure/closet,
 /obj/item/clothing/under/vampire/nurse,
@@ -14155,6 +14195,10 @@
 /obj/structure/bed/maint,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/millennium_tower)
+"lDq" = (
+/obj/structure/stairs/north,
+/turf/open/floor/plating/vampplating,
+/area/space)
 "lDu" = (
 /obj/structure/railing/metal/corner{
 	dir = 8
@@ -15772,6 +15816,12 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police/upstairs)
+"mPM" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "mPT" = (
 /obj/machinery/light{
 	dir = 1
@@ -16789,6 +16839,11 @@
 "nHY" = (
 /turf/closed/wall/vampwall/painted/low,
 /area/vtm/interior)
+"nIm" = (
+/obj/structure/table,
+/obj/vampire_computer,
+/turf/closed/wall/vampwall/rich/old/low,
+/area/space)
 "nIt" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/item/drinkable_bloodpack,
@@ -19416,6 +19471,12 @@
 /mob/living/carbon/human/npc/police/static,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police)
+"pzd" = (
+/obj/elevator_button_down{
+	pixel_y = 24
+	},
+/turf/open/floor/plating/vampplating/mono,
+/area/space)
 "pzu" = (
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
@@ -19500,6 +19561,12 @@
 /obj/structure/closet/secure_closet/freezer/meat/open,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/shop)
+"pCf" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "pCZ" = (
 /obj/structure/railing/metal{
 	dir = 4
@@ -29204,6 +29271,13 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
+"xBY" = (
+/obj/structure/railing/metal{
+	dir = 8;
+	layer = 3.1
+	},
+/turf/open/floor/plating/vampplating,
+/area/space)
 "xCh" = (
 /obj/structure/vampdoor/wood/old,
 /turf/open/floor/plating/concrete,
@@ -60268,10 +60342,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
+kIU
+kIU
+kIU
+kIU
 fwq
 fwq
 fwq
@@ -60470,10 +60544,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
+kIU
+pzd
+oqz
+pou
 fwq
 fwq
 fwq
@@ -60672,10 +60746,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
+kIU
+oqz
+oqz
+pou
 fwq
 fwq
 fwq
@@ -60874,10 +60948,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
+kIU
+kIU
+kIU
+kIU
 fwq
 fwq
 fwq
@@ -99861,7 +99935,7 @@ fwq
 fwq
 fwq
 fwq
-fwq
+kIU
 kIU
 kIU
 kIU
@@ -100063,9 +100137,9 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
 mDi
+oqz
 oqz
 oqz
 bPA
@@ -100265,10 +100339,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
 bzI
 mAT
+oqz
 oqz
 lPk
 bPA
@@ -100467,14 +100541,14 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
 jLV
 oqz
 oqz
 oqz
+oqz
 bPA
-iiM
+kIU
 tXt
 tXt
 tXt
@@ -100669,14 +100743,14 @@ fwq
 fwq
 fwq
 fwq
-fwq
+kIU
+kIU
+kIU
 kIU
 kIU
 pMQ
 kIU
 kIU
-iiM
-iiM
 tXt
 tXt
 tXt
@@ -100871,14 +100945,14 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
+pzd
+oqz
+pou
 ock
 ock
 ock
 kIU
-tXt
-tXt
 tXt
 tXt
 tXt
@@ -101073,14 +101147,14 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
+oqz
+oqz
+pou
 ock
 ock
 ock
 tkX
-tXt
-tXt
 tXt
 tXt
 tXt
@@ -101275,14 +101349,14 @@ fwq
 fwq
 fwq
 fwq
-fwq
+kIU
+kIU
+kIU
 kIU
 ock
 ock
 ock
 kIU
-tXt
-tXt
 tXt
 tXt
 tXt
@@ -101477,18 +101551,18 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
+hil
+kIU
+lDq
 ock
 ock
 ock
 kIU
 kIU
-kIU
+nIm
 liK
 liK
-liK
-kIU
 kIU
 kIU
 lNd
@@ -101679,20 +101753,20 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
 ock
+gsK
+xBY
 ock
 ock
 ock
 ock
 kIU
 oqz
-oqz
+lPk
 oqz
 kIU
 gby
-sLm
 nvJ
 uAp
 ofW
@@ -101881,11 +101955,12 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
+iss
 ock
 ock
 ock
+pCf
 ock
 ock
 cEO
@@ -101893,7 +101968,6 @@ oqz
 oqz
 oqz
 kIU
-nvJ
 nvJ
 nvJ
 opE
@@ -102083,12 +102157,13 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
+iss
+mPM
 ock
-ock
-ock
-ock
+bdO
+iss
+iss
 ock
 kIU
 oqz
@@ -102096,7 +102171,6 @@ oqz
 oqz
 kIU
 sLm
-nvJ
 nvJ
 opE
 ofW
@@ -102285,9 +102359,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
 kIU
+kIU
+dVo
 kIU
 kIU
 kIU
@@ -102298,7 +102373,6 @@ kIU
 kIU
 kIU
 tvq
-nvJ
 opE
 iVg
 ofW
@@ -102487,18 +102561,18 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+aPy
+wzo
+wzo
+wzo
+aPy
+kIU
+ock
+ock
+ock
+ock
+kIU
 nvJ
 nvJ
 opE
@@ -102689,18 +102763,18 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+aPy
+wzo
+wzo
+wzo
+aPy
+kIU
+ock
+ock
+ock
+ock
+kIU
 nvJ
 nvJ
 dEq
@@ -102891,18 +102965,18 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+aPy
+wzo
+wzo
+wzo
+aPy
+kIU
+ock
+ock
+ock
+ock
+iQp
 nvJ
 nvJ
 arU
@@ -103093,18 +103167,18 @@ fwq
 fwq
 fwq
 fwq
-fwq
 kIU
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+aPy
+wzo
+wzo
+wzo
+aPy
+kIU
+ock
+ock
+ock
+ock
+kIU
 nvJ
 gby
 uAp
@@ -103295,7 +103369,7 @@ fwq
 fwq
 fwq
 fwq
-fwq
+kIU
 kIU
 kIU
 kIU
@@ -141070,10 +141144,10 @@ tys
 tys
 tys
 tys
-tys
-tys
-tys
-tys
+kIU
+kIU
+kIU
+kIU
 tys
 tys
 tys
@@ -141272,10 +141346,10 @@ tys
 tys
 tys
 tys
-tys
-tys
-tys
-tys
+kIU
+pzd
+oqz
+pou
 tys
 tys
 tys
@@ -141474,10 +141548,10 @@ tys
 tys
 tys
 tys
-tys
-tys
-tys
-tys
+kIU
+oqz
+oqz
+pou
 tys
 tys
 tys
@@ -141676,10 +141750,10 @@ tys
 tys
 tys
 tys
-tys
-tys
-tys
-tys
+kIU
+kIU
+kIU
+kIU
 tys
 tys
 tys
