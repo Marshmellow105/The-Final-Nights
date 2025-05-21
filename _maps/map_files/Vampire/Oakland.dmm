@@ -3103,6 +3103,20 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/police/upstairs)
+"cdM" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/candle/infinite{
+	anchored = 1;
+	lit = 1;
+	icon_state = "candle1_lit";
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "cek" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5;
@@ -5111,6 +5125,10 @@
 	icon_state = "candle1_lit";
 	pixel_y = 8;
 	pixel_x = -16
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 12;
+	pixel_x = -6
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/jazzclub)
@@ -8116,6 +8134,14 @@
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
+"fFN" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "fFS" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -11188,6 +11214,10 @@
 	lit = 1;
 	icon_state = "candle1_lit";
 	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 12;
+	pixel_x = -6
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
@@ -23159,6 +23189,21 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior)
+"pSt" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/candle/infinite{
+	anchored = 1;
+	lit = 1;
+	icon_state = "candle1_lit";
+	pixel_y = 8;
+	pixel_x = -16
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "pSO" = (
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f4)
@@ -24684,6 +24729,10 @@
 	dir = 8
 	},
 /obj/structure/table/wood/fancy/red,
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 12;
+	pixel_x = -6
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
 "qRi" = (
@@ -25054,6 +25103,20 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/interior/laundromat)
+"rdC" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/candle/infinite{
+	anchored = 1;
+	lit = 1;
+	icon_state = "candle1_lit";
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "rea" = (
 /obj/structure/table,
 /obj/item/toy/plush/goatplushie{
@@ -25437,6 +25500,10 @@
 	light_power = 0.45;
 	name = "dim light fixture";
 	dir = 1
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
@@ -26719,6 +26786,10 @@
 	light_power = 0.45;
 	name = "dim light fixture";
 	dir = 4
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = -5
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/jazzclub)
@@ -28106,6 +28177,10 @@
 	lit = 1;
 	icon_state = "candle1_lit";
 	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = 8
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/jazzclub)
@@ -31326,6 +31401,10 @@
 	id = 29;
 	pixel_y = 13
 	},
+/obj/item/documents/nanotrasen{
+	desc = "A handful of papers detailing the profits and losses of various Ventrue-owned businesses in the city.";
+	name = "profit and loss reports"
+	},
 /turf/open/floor/carpet/red,
 /area/vtm/jazzclub)
 "vJu" = (
@@ -33745,6 +33824,14 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/space)
+"xvw" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "xwc" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -34534,6 +34621,20 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/strip)
+"yaV" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/candle/infinite{
+	anchored = 1;
+	lit = 1;
+	icon_state = "candle1_lit";
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/jazzclub)
 "ybA" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/item/reagent_containers/food/condiment/rice,
@@ -34900,6 +35001,10 @@
 	lit = 1;
 	icon_state = "candle1_lit";
 	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/martini_glass{
+	pixel_y = 5;
+	pixel_x = -5
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
@@ -108759,7 +108864,7 @@ ovK
 ovK
 hlJ
 hlJ
-iQY
+hlJ
 pKX
 pKX
 hlJ
@@ -109174,7 +109279,7 @@ sms
 sFL
 wIl
 nbH
-yix
+fFN
 cwx
 ucp
 knN
@@ -109370,8 +109475,8 @@ vZm
 teg
 pmV
 wIl
-yix
-uSK
+xvw
+cdM
 sms
 fUi
 wIl
@@ -110179,10 +110284,10 @@ fIE
 fIE
 fIE
 rJb
-yix
+xvw
 sms
 fUi
-yix
+fFN
 uSK
 wIl
 fDx
@@ -110381,7 +110486,7 @@ qRc
 oqc
 fIE
 rJb
-aQB
+rdC
 sms
 fUi
 opv
@@ -110579,11 +110684,11 @@ qWy
 moG
 eMF
 nFq
-nsS
+pSt
 wJt
 fIE
 rJb
-yix
+xvw
 sms
 sFL
 wIl
@@ -150980,7 +151085,7 @@ wIl
 wIl
 rYo
 fHS
-aQB
+yaV
 eat
 amD
 amD
@@ -151792,7 +151897,7 @@ wIl
 igZ
 amD
 oVy
-aQB
+yaV
 eMF
 ain
 gmP
