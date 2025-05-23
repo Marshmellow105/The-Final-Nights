@@ -96,6 +96,12 @@
 		C.deconstruct()
 	..()
 
+/obj/structure/lattice/catwalk/grate
+	name = "grate"
+	desc = "A catwalk for easier EVA maneuvering and cable placement."
+	icon = 'code/modules/wod13/tiles.dmi'
+	icon_state = "lattice_grate"
+
 /obj/structure/lattice/lava
 	name = "heatproof support lattice"
 	desc = "A specialized support beam for building across lava. Watch your step."
