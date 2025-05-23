@@ -6359,6 +6359,16 @@
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/carpet/red,
 /area/vtm/jazzclub)
+"eoo" = (
+/obj/structure/lattice/catwalk/grate{
+	dir = 4
+	},
+/obj/structure/railing/metal{
+	dir = 1
+	},
+/obj/structure/railing/metal,
+/turf/open/floor/plating/shit,
+/area/space)
 "eou" = (
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/apartment)
@@ -16784,6 +16794,16 @@
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/endron_facility/restricted)
+"lNI" = (
+/obj/structure/lattice/catwalk/grate,
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/obj/structure/railing/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/shit/border,
+/area/space)
 "lNT" = (
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/painted,
@@ -23434,7 +23454,9 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/shop)
 "qaV" = (
-/obj/structure/lattice/catwalk,
+/obj/structure/lattice/catwalk/grate{
+	dir = 4
+	},
 /obj/structure/railing/metal,
 /obj/structure/railing/metal{
 	dir = 1
@@ -51952,7 +51974,7 @@ wel
 wel
 wel
 tpX
-efG
+lNI
 kpY
 wel
 wel
@@ -52760,7 +52782,7 @@ wel
 wel
 wel
 tpX
-efG
+lNI
 kpY
 wel
 wel
@@ -63654,14 +63676,14 @@ kOa
 kOa
 wNb
 kOa
+uuV
 kOa
 kOa
 kOa
 kOa
 kOa
 kOa
-kOa
-kOa
+uuV
 kOa
 wNb
 kOa
@@ -63856,14 +63878,14 @@ nox
 nox
 xsl
 nox
+eoo
 nox
 nox
 nox
 nox
 nox
 nox
-nox
-nox
+eoo
 nox
 xsl
 nox
@@ -64058,14 +64080,14 @@ nox
 nox
 xsl
 nox
+eoo
 nox
 nox
 nox
 nox
 nox
 nox
-nox
-nox
+eoo
 nox
 xsl
 nox
@@ -64260,14 +64282,14 @@ kOa
 kOa
 wNb
 kOa
+uuV
 kOa
 kOa
 kOa
 kOa
 kOa
 kOa
-kOa
-kOa
+uuV
 kOa
 wNb
 kOa
