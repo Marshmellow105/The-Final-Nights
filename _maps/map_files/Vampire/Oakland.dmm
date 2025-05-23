@@ -4268,12 +4268,6 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/park)
-"cOm" = (
-/obj/structure/railing/metal{
-	dir = 9
-	},
-/turf/open/openspace,
-/area/space)
 "cOT" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/plating/toilet,
@@ -20993,12 +20987,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
-"ovK" = (
-/obj/structure/railing/metal{
-	dir = 8
-	},
-/turf/open/openspace,
-/area/space)
 "ovP" = (
 /obj/item/kirbyplants/random,
 /obj/fusebox,
@@ -26768,6 +26756,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
+"stg" = (
+/obj/structure/railing/metal{
+	dir = 5
+	},
+/turf/open/openspace,
+/area/space)
 "sto" = (
 /turf/open/floor/plating/circled{
 	color = "#b0b0b0"
@@ -27569,6 +27563,12 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility/restricted)
+"sVw" = (
+/obj/structure/railing/metal{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/space)
 "sVH" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/siding/wood{
@@ -31236,6 +31236,9 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/apartment)
+"vDW" = (
+/turf/closed/wall/vampwall/rich/old,
+/area/space)
 "vEu" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#9a704a";
@@ -31249,6 +31252,13 @@
 	},
 /turf/open/floor/eighties,
 /area/vtm/interior/strip)
+"vEP" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/vampcanalplating,
+/area/space)
 "vES" = (
 /obj/machinery/disposal/bin,
 /turf/open/floor/plating/concrete,
@@ -32985,6 +32995,13 @@
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/park)
+"wNb" = (
+/obj/structure/vampdoor/prison{
+	lock_id = "pentex";
+	lockpick_difficulty = 16
+	},
+/turf/open/floor/plating/vampcanalplating,
+/area/space)
 "wNj" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4;
@@ -33780,6 +33797,13 @@
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/clinic/haven)
+"xsl" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/shit,
+/area/space)
 "xss" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/concrete,
@@ -63418,6 +63442,7 @@ kOa
 kOa
 kOa
 kOa
+vEP
 kOa
 kOa
 kOa
@@ -63428,8 +63453,7 @@ kOa
 kOa
 kOa
 kOa
-kOa
-kOa
+vEP
 kOa
 kOa
 kOa
@@ -63620,6 +63644,7 @@ kOa
 kOa
 kOa
 kOa
+wNb
 kOa
 kOa
 kOa
@@ -63630,8 +63655,7 @@ kOa
 kOa
 kOa
 kOa
-kOa
-kOa
+wNb
 kOa
 kOa
 kOa
@@ -63822,6 +63846,7 @@ nox
 nox
 nox
 nox
+xsl
 nox
 nox
 nox
@@ -63832,8 +63857,7 @@ nox
 nox
 nox
 nox
-nox
-nox
+xsl
 nox
 nox
 nox
@@ -64024,6 +64048,7 @@ nox
 nox
 nox
 nox
+xsl
 nox
 nox
 nox
@@ -64034,8 +64059,7 @@ nox
 nox
 nox
 nox
-nox
-nox
+xsl
 nox
 nox
 nox
@@ -64226,6 +64250,7 @@ kOa
 kOa
 kOa
 kOa
+wNb
 kOa
 kOa
 kOa
@@ -64236,8 +64261,7 @@ kOa
 kOa
 kOa
 kOa
-kOa
-kOa
+wNb
 kOa
 kOa
 kOa
@@ -64428,7 +64452,7 @@ kOa
 kOa
 kOa
 kOa
-kOa
+vEP
 kOa
 kOa
 kOa
@@ -64439,7 +64463,7 @@ kwG
 kOa
 kOa
 kOa
-kOa
+vEP
 kOa
 kOa
 kOa
@@ -67850,12 +67874,12 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+hPO
+hPO
+hPO
+hPO
+hPO
+hPO
 fwq
 fwq
 fwq
@@ -68052,12 +68076,12 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+hPO
+raA
+tfc
+quI
+nUW
+hPO
 fwq
 fwq
 fwq
@@ -68253,9 +68277,9 @@ fwq
 fwq
 fwq
 fwq
-fwq
 hPO
-hPO
+mHq
+dOh
 hPO
 hPO
 hPO
@@ -68445,24 +68469,24 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
+cxp
+cxp
+cxp
 hPO
+hPO
+hPO
+hPO
+hPO
+hPO
+hPO
+mHq
+lqr
 raA
-tfc
-quI
-nUW
+raA
+dDt
+lqr
 hPO
-fwq
+hPO
 fwq
 fwq
 fwq
@@ -68647,24 +68671,24 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-fwq
-hPO
+cxp
+nUx
+nSL
 mHq
-dOh
+bnS
+myB
+eQU
+mHq
+xIr
+eTJ
+nos
+nos
+nos
+nos
+nos
+hwz
+lqr
 hPO
-hPO
-hPO
-hPO
-fwq
 fwq
 fwq
 fwq
@@ -68848,24 +68872,24 @@ fwq
 fwq
 fwq
 fwq
-fwq
 cxp
 cxp
-cxp
-hPO
-hPO
-hPO
-hPO
-hPO
-hPO
-hPO
+nSL
+nUx
 mHq
-lqr
+qBl
 raA
-raA
-dDt
+qwH
+fPO
+mUY
+uNw
+uNw
+uNw
+uNw
+uNw
+uNw
+cwS
 lqr
-hPO
 hPO
 fwq
 fwq
@@ -69051,23 +69075,23 @@ fwq
 fwq
 fwq
 cxp
-cxp
-nSL
-nUx
+bOe
+tpa
+yia
 mHq
-bnS
-myB
-eQU
-fPO
-xIr
-eTJ
-nos
-nos
-nos
-nos
-nos
-hwz
-lqr
+tLT
+raA
+qwH
+vbB
+mUY
+uNw
+uNw
+uNw
+uNw
+uNw
+uNw
+cwS
+cTz
 hPO
 fwq
 fwq
@@ -69253,12 +69277,12 @@ fwq
 fwq
 fwq
 cxp
+xwc
 bOe
-tpa
-yia
-mHq
-tLT
+ayY
+iAG
 raA
+qcQ
 qwH
 vbB
 mUY
@@ -69455,12 +69479,12 @@ fwq
 fwq
 fwq
 cxp
-xwc
-bOe
-ayY
-iAG
-raA
-qcQ
+nmm
+nUx
+nSL
+mHq
+qBl
+azN
 qwH
 vbB
 mUY
@@ -69657,14 +69681,14 @@ fwq
 fwq
 fwq
 cxp
-nmm
-nUx
-nSL
+cxp
+hjd
+qcG
 mHq
 qBl
-azN
+raA
 qwH
-vbB
+fPO
 mUY
 uNw
 uNw
@@ -69673,7 +69697,7 @@ uNw
 uNw
 uNw
 cwS
-cTz
+lqr
 hPO
 fwq
 fwq
@@ -69858,15 +69882,15 @@ fwq
 fwq
 fwq
 fwq
+fwq
 cxp
-cxp
-hjd
-qcG
+tpa
+yia
 mHq
 aqf
 tBm
 oPo
-fPO
+mHq
 xat
 yfl
 dkc
@@ -108251,10 +108275,10 @@ fwq
 fwq
 fwq
 fwq
-fwq
-fwq
-fwq
-fwq
+vDW
+vDW
+vDW
+vDW
 kIU
 kIU
 kIU
@@ -108454,15 +108478,15 @@ hlJ
 hlJ
 hlJ
 hlJ
+stg
+sVw
+sVw
+sVw
 hlJ
 hlJ
 hlJ
-hlJ
-hlJ
-hlJ
-hlJ
-hlJ
-hlJ
+pKX
+pKX
 hlJ
 hlJ
 hlJ
@@ -108858,15 +108882,15 @@ hlJ
 hlJ
 hlJ
 hlJ
-cOm
-ovK
-ovK
-ovK
 hlJ
 hlJ
 hlJ
-pKX
-pKX
+hlJ
+hlJ
+hlJ
+hlJ
+hlJ
+hlJ
 hlJ
 hlJ
 hlJ
