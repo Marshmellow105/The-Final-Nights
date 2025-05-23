@@ -21,6 +21,11 @@
 	desc = "Looks sturdy enough and made of advanced materials."
 	icon = 'code/modules/wod13/pentexcatwalk.dmi'
 
+/obj/structure/lattice/grate
+	name = "grate"
+	desc = "A catwalk for easier EVA maneuvering and cable placement."
+	icon = 'code/modules/wod13/tiles.dmi'
+	icon_state = "lattice_grate"
 
 /obj/structure/lattice/examine(mob/user)
 	. = ..()
@@ -95,12 +100,6 @@
 	for(var/obj/structure/cable/C in T)
 		C.deconstruct()
 	..()
-
-/obj/structure/lattice/catwalk/grate
-	name = "grate"
-	desc = "A catwalk for easier EVA maneuvering and cable placement."
-	icon = 'code/modules/wod13/tiles.dmi'
-	icon_state = "lattice_grate"
 
 /obj/structure/lattice/lava
 	name = "heatproof support lattice"
