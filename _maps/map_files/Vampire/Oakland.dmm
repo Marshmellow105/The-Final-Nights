@@ -7481,6 +7481,10 @@
 	color = "#9c8064"
 	},
 /area/vtm/interior)
+"ffp" = (
+/obj/manholedown,
+/turf/open/floor/plating/asphalt,
+/area/space)
 "ffK" = (
 /obj/structure/chair/greyscale{
 	dir = 4
@@ -11059,6 +11063,10 @@
 	},
 /turf/open/floor/plating/vampcarpet,
 /area/vtm/interior/techshop)
+"hPE" = (
+/obj/manholeup,
+/turf/open/floor/plating/vampcanalplating,
+/area/space)
 "hPL" = (
 /obj/structure/table,
 /obj/machinery/mineral/equipment_vendor/fastfood/america,
@@ -63458,7 +63466,7 @@ kOa
 kOa
 kOa
 kOa
-kOa
+hPE
 kOa
 kOa
 kOa
@@ -103859,7 +103867,7 @@ oFz
 ofW
 ofW
 ofW
-ofW
+ffp
 ofW
 ofW
 ofW
