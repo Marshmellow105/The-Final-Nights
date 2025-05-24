@@ -23,7 +23,7 @@
 
 /obj/structure/lattice/grate
 	name = "grate"
-	desc = "A catwalk for easier EVA maneuvering and cable placement."
+	desc = "A metal grate, who knows what kind of sewer clowns might dwell underneath it?"
 	icon = 'code/modules/wod13/tiles.dmi'
 	icon_state = "lattice_grate"
 	base_icon_state = "lattice_grate"
