@@ -3505,10 +3505,6 @@
 	},
 /turf/open/floor/plating/circled,
 /area/space)
-"caK" = (
-/obj/structure/roadblock,
-/turf/open/floor/plating/woodrough,
-/area/vtm/interior/apartment)
 "cbz" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -8876,6 +8872,10 @@
 "fmH" = (
 /turf/open/floor/plating/woodrough,
 /area/vtm/interior/laundromat)
+"fni" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/plating/woodrough,
+/area/vtm/interior/apartment)
 "fnO" = (
 /obj/structure/barrels/rand{
 	pixel_y = 8;
@@ -11139,6 +11139,14 @@
 	alpha = 0
 	},
 /area/vtm/interior/ghetto)
+"gPf" = (
+/obj/effect/decal/cardboard,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/obj/structure/table/optable,
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "gPl" = (
 /obj/structure/railing/metal,
 /turf/open/floor/plating/sidewalk/poor,
@@ -12341,6 +12349,28 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
+"hxK" = (
+/obj/structure/table/wood,
+/obj/item/clothing/mask/muzzle,
+/obj/item/clothing/head/vampire/blackbag{
+	pixel_y = 7;
+	pixel_x = -10
+	},
+/obj/item/wire_cutters{
+	name = "pliers";
+	desc = "Make sure you follow arbitrary interrogation guidelines, otherwise this would be torture.";
+	pixel_y = 20
+	},
+/obj/item/gas_can/full{
+	pixel_y = 12;
+	pixel_x = 9
+	},
+/obj/item/lighter/greyscale{
+	pixel_x = 11;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/woodrough,
+/area/vtm/interior/apartment)
 "hyb" = (
 /obj/structure/railing{
 	layer = 4
@@ -17009,10 +17039,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/clinic)
-"krB" = (
-/obj/structure/roadblock,
-/turf/open/floor/plating/vampdirt,
-/area/vtm/interior/apartment)
 "krR" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -17849,7 +17875,7 @@
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "kUV" = (
-/obj/structure/bed/maint,
+/obj/structure/vampdoor/prison,
 /turf/open/floor/plating/woodrough,
 /area/vtm/interior/apartment)
 "kVn" = (
@@ -18232,6 +18258,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/ghetto)
+"lgz" = (
+/obj/structure/table/wood,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 5
+	},
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "lgQ" = (
 /obj/structure/curtain{
 	pixel_y = 15;
@@ -19345,6 +19378,13 @@
 /turf/open/openspace,
 /area/vtm/interior/strip)
 "lQS" = (
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -10
+	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/apartment)
 "lQU" = (
@@ -19964,6 +20004,14 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/jazzclub)
+"mib" = (
+/obj/structure/roadblock{
+	dir = 1;
+	pixel_y = 17;
+	density = 0
+	},
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "mic" = (
 /obj/structure/table/wood/fancy/green,
 /obj/item/flashlight/lamp/green,
@@ -20996,6 +21044,13 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/space)
+"mNx" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
+	},
+/turf/open/floor/plating/toilet,
+/area/vtm/interior/apartment)
 "mNB" = (
 /obj/structure/vamptree{
 	pixel_x = 8;
@@ -23363,6 +23418,13 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/vtm/interior/apartment)
+"odY" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "oea" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -23913,6 +23975,22 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"oru" = (
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
+/obj/structure/table/wood,
+/obj/item/clothing/mask/vampire/balaclava{
+	pixel_y = 10
+	},
+/obj/item/clothing/mask/vampire/balaclava{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/turf/open/floor/plating/concrete{
+	color = "#9c8064"
+	},
+/area/vtm/interior/apartment)
 "orB" = (
 /obj/structure/vampdoor/simple{
 	lock_id = "triad";
@@ -25954,6 +26032,10 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/bianchiBank)
+"pAM" = (
+/obj/item/melee/vampirearms/shovel,
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "pAQ" = (
 /obj/machinery/button/door{
 	pixel_y = 30;
@@ -26579,6 +26661,10 @@
 	color = "#EADDCA"
 	},
 /area/vtm/interior/techshop)
+"pUX" = (
+/obj/effect/decal/graffiti,
+/turf/open/floor/plating/woodrough,
+/area/vtm/interior/apartment)
 "pVp" = (
 /turf/open/floor/glass/reinforced,
 /area/space)
@@ -28848,10 +28934,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/ghetto)
-"reM" = (
-/obj/effect/decal/pallet,
-/turf/open/floor/plating/vampdirt,
-/area/vtm/interior/apartment)
 "rfu" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -29155,6 +29237,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
+/obj/structure/vampdoor/wood/old,
 /turf/open/floor/plating/woodrough,
 /area/vtm/interior/apartment)
 "rvF" = (
@@ -29298,6 +29381,10 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility/restricted)
+"rAA" = (
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/woodrough,
+/area/vtm/interior/apartment)
 "rAO" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_x = 0;
@@ -30307,10 +30394,10 @@
 /turf/open/floor/plasteel/dark,
 /area/vtm/interior/millennium_tower/f4)
 "siz" = (
-/obj/structure/methlab,
-/obj/machinery/light/small{
+/obj/machinery/light/small/red{
 	pixel_y = 32
 	},
+/obj/structure/bed/maint,
 /turf/open/floor/plating/woodrough,
 /area/vtm/interior/apartment)
 "siD" = (
@@ -30433,6 +30520,10 @@
 /area/space)
 "smD" = (
 /obj/effect/decal/cardboard,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
+	},
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/apartment)
 "sna" = (
@@ -34658,6 +34749,28 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
+"uPU" = (
+/obj/machinery/light/small/red{
+	dir = 8;
+	pixel_x = 16
+	},
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = 6;
+	pixel_y = -12
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_y = -12;
+	pixel_x = -4
+	},
+/obj/item/restraints/handcuffs/cable/zipties{
+	pixel_y = 19;
+	pixel_x = -10
+	},
+/turf/open/floor/plating/vampdirt,
+/area/vtm/interior/apartment)
 "uPX" = (
 /obj/structure/vampdoor/wood{
 	lock_id = "banuhaqim";
@@ -35233,7 +35346,13 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/vjanitor)
 "vin" = (
-/obj/effect/decal/graffiti,
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 7
+	},
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/apartment)
 "vio" = (
@@ -38450,6 +38569,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
+/obj/structure/vampdoor/wood/old,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/apartment)
 "xma" = (
@@ -64144,7 +64264,7 @@ umm
 umm
 umm
 umm
-fwq
+wQn
 wel
 wel
 aqb
@@ -64341,13 +64461,13 @@ dCn
 eou
 eou
 fgG
-mAG
+pUX
 kUV
 mAG
 vry
 umm
-fwq
-fwq
+wel
+wel
 fwq
 fwq
 fwq
@@ -64544,11 +64664,11 @@ eou
 vAa
 fgG
 siz
-gBj
+odY
 ktD
-gBj
-umm
-fwq
+jnW
+lgz
+wel
 fwq
 fwq
 fwq
@@ -64747,10 +64867,10 @@ eou
 fgG
 fgG
 fgG
-gBj
-jlA
-umm
-fwq
+dpw
+mAG
+gPf
+wel
 fwq
 fwq
 fwq
@@ -64947,12 +65067,12 @@ fgG
 esW
 eou
 fgG
+oru
+hxK
+pAM
 vry
-mAG
-mAG
-mAG
-umm
-fwq
+fni
+wel
 fwq
 fwq
 fwq
@@ -65352,7 +65472,7 @@ eou
 eou
 oXI
 jnW
-caK
+mAG
 mAG
 xlN
 lQS
@@ -65543,7 +65663,7 @@ fwq
 fwq
 fwq
 umm
-lQS
+mNx
 fgG
 emQ
 jlA
@@ -65553,9 +65673,9 @@ dCh
 eou
 vAa
 fgG
+mib
+mAG
 vry
-krB
-jnW
 fgG
 cFu
 umm
@@ -65755,9 +65875,9 @@ oEL
 eou
 eou
 fgG
-fgG
-fgG
-fgG
+vry
+uPU
+jnW
 fgG
 fgG
 umm
@@ -65957,9 +66077,9 @@ eou
 eou
 eou
 fgG
-reM
-mAG
-vry
+fgG
+fgG
+fgG
 fgG
 fSs
 umm
@@ -66158,8 +66278,8 @@ fgG
 dwr
 eou
 eou
-oXI
-mAG
+fgG
+rAA
 mAG
 gBj
 xlN
@@ -66360,7 +66480,7 @@ fgG
 lPF
 eou
 eou
-fgG
+oXI
 mAG
 byo
 mAG
