@@ -3549,6 +3549,10 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/apartment)
+"bWs" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "bWv" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -7400,6 +7404,17 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f4)
+"edd" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#574d46"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#574d46"
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "edv" = (
 /obj/structure/table/wood,
 /obj/vampire_computer,
@@ -14290,6 +14305,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
+"ian" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "iaH" = (
 /obj/structure/bed,
 /turf/open/floor/plating/concrete{
@@ -14865,6 +14886,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"irN" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "irU" = (
 /obj/structure/chair{
 	dir = 1
@@ -19222,6 +19249,12 @@
 	icon_state = "trash7"
 	},
 /turf/open/floor/plating/circled,
+/area/space)
+"kUC" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry/old,
 /area/space)
 "kUD" = (
 /obj/effect/decal/bordur{
@@ -26463,6 +26496,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
+"oLQ" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "oLX" = (
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f2)
@@ -30609,6 +30648,14 @@
 	color = "#bfbfbf"
 	},
 /area/vtm/interior/endron_facility)
+"qSY" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#574d46"
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "qTh" = (
 /obj/machinery/libraryscanner,
 /obj/structure/railing{
@@ -34429,6 +34476,13 @@
 /obj/structure/bed/maint,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
+"tkQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#574d46"
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "tkT" = (
 /obj/structure/closet/crate/freezer/blood,
 /obj/structure/curtain,
@@ -37765,6 +37819,12 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/apartment)
+"vdM" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "vdP" = (
 /obj/structure/rack/bubway/horizontal,
 /obj/order4{
@@ -38694,6 +38754,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/ghetto)
+"vKe" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "vKp" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -41039,6 +41105,10 @@
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/police/upstairs)
+"wZm" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/turf/open/floor/plating/parquetry/old,
+/area/space)
 "wZS" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5;
@@ -116853,9 +116923,9 @@ tFd
 tFd
 tFd
 tFd
-tFd
-tFd
-tFd
+wZm
+kUC
+vdM
 dpa
 tFd
 raC
@@ -117055,9 +117125,9 @@ tFd
 raC
 raC
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 dpa
 tFd
 raC
@@ -117257,9 +117327,9 @@ tFd
 tFd
 tFd
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 dpa
 tFd
 raC
@@ -117459,9 +117529,9 @@ gqS
 gqS
 gqS
 gqS
-tFd
+bWs
 wZc
-tFd
+oLQ
 dpa
 tFd
 raC
@@ -117661,15 +117731,15 @@ tFd
 tFd
 tFd
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 dpa
 tFd
 raC
 gqS
 gqS
-tFd
+tkQ
 gqS
 wel
 "}
@@ -117863,9 +117933,9 @@ tFd
 raC
 raC
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 dpa
 tFd
 tFd
@@ -118065,9 +118135,9 @@ tFd
 tFd
 tFd
 tFd
-tFd
-tFd
-tFd
+irN
+ian
+vKe
 dpa
 tFd
 tFd
@@ -118466,19 +118536,19 @@ ofW
 qwp
 lQH
 gqS
-tFd
-tFd
+kUC
+kUC
 gqS
 tFd
 tFd
 tFd
-tFd
-tFd
-tFd
-tFd
-tFd
-tFd
-tFd
+wZm
+kUC
+kUC
+kUC
+kUC
+kUC
+vdM
 wel
 "}
 (174,1,2) = {"
@@ -118667,20 +118737,20 @@ aWd
 ofW
 qwp
 eWO
-tFd
+qSY
 wZc
 wZc
+oLQ
 tFd
 tFd
 tFd
-tFd
-tFd
+bWs
 wZc
 wZc
 wZc
 wZc
 wZc
-tFd
+oLQ
 wel
 "}
 (175,1,2) = {"
@@ -118870,19 +118940,19 @@ ofW
 qwp
 eWO
 gqS
-tFd
-tFd
+ian
+ian
 gqS
 tFd
 tFd
 tFd
-tFd
-tFd
-tFd
-tFd
-tFd
-tFd
-tFd
+irN
+ian
+ian
+ian
+ian
+ian
+vKe
 wel
 "}
 (176,1,2) = {"
@@ -119075,9 +119145,9 @@ gqS
 dpa
 dpa
 gqS
-tFd
-tFd
-tFd
+wZm
+kUC
+vdM
 tFd
 raC
 tFd
@@ -119277,9 +119347,9 @@ gqS
 tFd
 tFd
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 tFd
 raC
 tFd
@@ -119479,9 +119549,9 @@ gqS
 tFd
 tFd
 gqS
-tFd
+bWs
 wZc
-tFd
+oLQ
 oEu
 oEu
 oEu
@@ -119681,9 +119751,9 @@ gqS
 gqS
 gqS
 gqS
-tFd
+bWs
 wZc
-tFd
+oLQ
 oEu
 tvm
 tvm
@@ -119883,9 +119953,9 @@ gqS
 naa
 naa
 tFd
-tFd
+bWs
 wZc
-tFd
+oLQ
 oEu
 tvm
 tvm
@@ -120085,9 +120155,9 @@ gqS
 gqS
 naa
 gqS
-tFd
+bWs
 wZc
-tFd
+oLQ
 gqS
 tvm
 tvm
@@ -120287,15 +120357,15 @@ gqS
 naa
 naa
 gqS
-tFd
-tFd
-tFd
+irN
+ian
+vKe
 gqS
 gqS
-tFd
-tFd
-tFd
-tFd
+edd
+edd
+edd
+edd
 gqS
 wel
 "}
