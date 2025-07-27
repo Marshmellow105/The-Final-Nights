@@ -10757,7 +10757,9 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
 "cUu" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /mob/living/carbon/human/npc/sabbat/shovelhead/brujah,
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -13909,7 +13911,9 @@
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior)
 "dMD" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /mob/living/carbon/human/npc/sabbat/shovelhead/malkavian,
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -17409,7 +17413,9 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
 "eKA" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /turf/open/floor/plating/shit{
 	icon_state = "blood"
 	},
@@ -21758,7 +21764,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower)
 "fQD" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/item/candle/infinite{
 	anchored = 1;
 	pixel_y = 15;
@@ -51252,9 +51260,11 @@
 	},
 /area/vtm/church/interior/staff)
 "nvR" = (
-/obj/effect/decal/fakelattice,
 /obj/item/reagent_containers/food/drinks/beer/vampire{
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer=0)
+	},
+/obj/effect/decal/fakelattice{
+	density = 0
 	},
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -56814,7 +56824,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/sewer)
 "oOt" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/structure/closet/crate/large{
 	anchored = 1
 	},
@@ -57817,7 +57829,9 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/financialdistrict)
 "pde" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/effect/decal/litter,
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -60174,7 +60188,9 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sewer)
 "pHD" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
 "pHE" = (
@@ -66631,10 +66647,12 @@
 /turf/open/openspace,
 /area/vtm/interior/littleitaly/apartments)
 "rpx" = (
-/obj/effect/decal/fakelattice,
 /obj/effect/decal/litter,
 /obj/item/reagent_containers/food/drinks/beer/vampire{
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer=0)
+	},
+/obj/effect/decal/fakelattice{
+	density = 0
 	},
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -69230,7 +69248,9 @@
 	},
 /area/vtm/sewer)
 "scP" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/structure/fire_barrel,
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -84267,9 +84287,11 @@
 /turf/open/floor/plating/dirt,
 /area/vtm)
 "wip" = (
-/obj/effect/decal/fakelattice,
 /obj/structure/bed/maint,
 /mob/living/carbon/human/npc/hobo,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
 "wiu" = (
@@ -88545,7 +88567,9 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
 "xlS" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/structure/methlab,
 /turf/open/floor/plating/dirt,
 /area/vtm/sewer)
@@ -88745,7 +88769,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/sewer)
 "xqc" = (
-/obj/effect/decal/fakelattice,
+/obj/effect/decal/fakelattice{
+	density = 0
+	},
 /obj/structure/table/wood,
 /obj/item/food/breadslice/moldy{
 	pixel_y = 9
