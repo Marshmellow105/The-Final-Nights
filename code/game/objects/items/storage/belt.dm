@@ -243,6 +243,46 @@
 	new /obj/item/ammo_box/magazine/vamp556(src)
 	new /obj/item/ammo_box/magazine/vamp556(src)
 
+/obj/item/storage/belt/milrig
+	name = "military webbing"
+	desc = "Standard issue load bearing webbing used by the National Guard."
+	icon_state = "milrig"
+	worn_icon_state = "milrig"
+
+/obj/item/storage/belt/milrig/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 16
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	STR.set_holdable(list(
+		/obj/item/gun/ballistic/vampire/revolver,
+		/obj/item/gun/ballistic/automatic/vampire/deagle,
+		/obj/item/gun/ballistic/automatic/vampire/m1911,
+		/obj/item/gun/ballistic/automatic/vampire/glock19,
+		/obj/item/gun/ballistic/automatic/vampire/beretta,
+		/obj/item/gun/ballistic/automatic/vampire/glock21,
+		/obj/item/ammo_box/vampire/c9mm/moonclip,
+		/obj/item/ammo_box/magazine/m44,
+		/obj/item/ammo_box/magazine/m50,
+		/obj/item/ammo_box/magazine/vamp45acp,
+		/obj/item/ammo_box/magazine/toy/pistol,
+		/obj/item/ammo_box/magazine/glock9mm,
+		/obj/item/ammo_box/magazine/vamp556,
+		/obj/item/ammo_box/magazine/vampaug,
+		/obj/item/gun/energy/taser/twoshot,
+		/obj/item/reagent_containers/spray/pepper,
+		/obj/item/restraints/handcuffs,
+		/obj/item/flashlight/seclite,
+		/obj/item/ammo_box/magazine/glock45acp,	,
+		))
+
+/obj/item/storage/belt/milrig/full/PopulateContents()
+	new /obj/item/flashlight/seclite(src)
+	new /obj/item/gun/ballistic/automatic/vampire/beretta(src)
+	new /obj/item/ammo_box/magazine/vampaug(src)
+	new /obj/item/ammo_box/magazine/vampaug(src)
+	new /obj/item/ammo_box/magazine/vampaug(src)
+
 /obj/item/storage/belt/security
 	name = "security belt"
 	desc = "Can hold security gear like handcuffs and flashes."

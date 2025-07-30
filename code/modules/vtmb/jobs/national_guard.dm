@@ -6,14 +6,10 @@
 	r_pocket = /obj/item/flashlight
 	l_pocket = /obj/item/ammo_box/magazine/vampaug
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
-	belt = /obj/item/gun/ballistic/automatic/vampire/aug
+	belt = /obj/item/storage/belt/milrig/full
+	r_hand = /obj/item/gun/ballistic/automatic/vampire/aug
 	suit = /obj/item/clothing/suit/vampire/vest/army
 	head = /obj/item/clothing/head/vampire/army
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/vampaug = 3,
-		/obj/item/radio/military = 1,
-		/obj/item/gun/ballistic/automatic/vampire/beretta=1
-		)
 
 /datum/antagonist/national_guard/proc/equip_national_guard()
 	var/mob/living/carbon/human/H = owner.current
