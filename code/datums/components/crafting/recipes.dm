@@ -27,20 +27,36 @@
 /datum/crafting_recipe/proc/check_requirements(mob/user, list/collected_requirements)
 	return TRUE
 
+// TFN EDIT ADD
+/**
+ * Additional spawn logic for when the object is crafted
+ *
+ * result: The newly created object
+ * ingredient_items: everything on and near the crafter that might possibly be an ingredient. Be specific when filtering this or you'll target the wrong item.
+ * good: for(var/obj/item/shield/door/D in ingredient_items)
+ * bad: for(var/obj/item/D in ingredient_items)
+ */
+/datum/crafting_recipe/proc/on_craft_items(atom/movable/result, list/ingredient_items)
+	return
 
-///WORLD OF DARKNESS RECIPES!!
+/datum/crafting_recipe/fulltilewindow
+	name = "Build Full Window"
+	result = /obj/structure/window/fulltile
+	reqs = list(/obj/item/shard = 2)
+	time = 15
+	category = CAT_CONSTRUCTION
+	subcategory = CAT_WINDOWS
 
-///Recipe for Typhon's Brew
-/datum/crafting_recipe/typhon_brew
-	name = "Thyphon's Brew"
-	reqs = list(/obj/item/reagent_containers/food/drinks/beer/vampire = 1, /datum/reagent/blood/vitae = 200)
-	result = /obj/item/reagent_containers/food/drinks/beer/vampire/typhon
-	time = 1 SECONDS
-	category = CAT_DRUGS
-	always_available = FALSE
+/datum/crafting_recipe/door
+	name = "Build Wooden Door"
+	result = /obj/structure/vampdoor/wood
+	reqs = list(/obj/item/stack/sheet/mineral/wood = 10)
+	time = 30
+	category = CAT_CONSTRUCTION
+	subcategory = CAT_DOORS
 
+// TFN EDIT ADD END
 /*
-
 /datum/crafting_recipe/improv_explosive
 	name = "IED"
 	result = /obj/item/grenade/iedcasing

@@ -105,7 +105,6 @@
 	. = ..()
 	icon_state = "axetzi0"
 
-
 /obj/item/melee/vampirearms/katana
 	name = "katana"
 	desc = "An elegant weapon, its tiny edge is capable of cutting through flesh and bone with ease."
@@ -240,7 +239,7 @@
 
 /obj/item/melee/vampirearms/longsword
 	name = "longsword"
-	desc = "A classic weapon of the knight, the longsword is a versatile weapon that can be used for both cutting and thrusting."
+	desc = "A classic weapon of the nobility, the longsword is a versatile weapon that can be used for both cutting and thrusting."
 	icon = 'code/modules/wod13/weapons.dmi'
 	icon_state = "longsword"
 	flags_1 = CONDUCT_1
@@ -262,6 +261,33 @@
 /obj/item/melee/vampirearms/longsword/Initialize()
 	. = ..()
 	AddComponent(/datum/component/selling, 1800, "longsword", FALSE)
+
+/obj/item/melee/vampirearms/spear
+	name = "spear"
+	desc = "A staple of warfare through centuries, the spear is great for poking at things."
+	icon = 'code/modules/wod13/weapons.dmi'
+	icon_state = "spearwaw"
+	flags_1 = CONDUCT_1
+	force = 45
+	throwforce = 10
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = ITEM_SLOT_BACK
+	block_chance = 20
+	armour_penetration = 60
+	sharpness = SHARP_POINTY
+	attack_verb_continuous = list("stabs", "pokes")
+	attack_verb_simple = list("stab", "poke")
+	hitsound = 'sound/weapons/rapierhit.ogg'
+	wound_bonus = 5
+	bare_wound_bonus = 20
+	resistance_flags = FIRE_PROOF
+	masquerade_violating = FALSE
+	is_iron = TRUE
+
+/obj/item/melee/vampirearms/sabre/Initialize()
+	. = ..()
+	AddComponent(/datum/component/selling, 200, "spear", FALSE)
+
 
 /obj/item/melee/vampirearms/longsword/keeper
 	name = "The Brother's Keeper"
@@ -310,7 +336,7 @@
 	component_type = /datum/component/storage/concrete/vtm/sheathe
 
 /obj/item/storage/belt/vampire/sheathe/longsword
-	desc = "An ornate sheath designed to hold a knight's blade."
+	desc = "An ornate sheath designed to hold a noble's blade."
 	icon_state = "longsword_sheathe-1"
 	worn_icon_state = "longsword_sheathe"
 
@@ -547,10 +573,7 @@
 /obj/item/melee/vampirearms/knife/gangrel/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, CURSED_ITEM_TRAIT)
-	if(HAS_TRAIT(owner, TRAIT_WARRIOR))
-		src.attack_speed = CLICK_CD_MELEE * 0.5
-	else
-		src.attack_speed = CLICK_CD_MELEE
+	attack_speed = CLICK_CD_MELEE
 
 /obj/item/melee/vampirearms/chainsaw
 	name = "chainsaw"
@@ -685,7 +708,6 @@
 		visible_message("<span class='warning'>[user] bonks [src]'s head!</span>", "<span class='warning'>You bonk[target]'s head!</span>")
 		if(user.mind && is_sabbatist(user))
 			target.Stun(3 SECONDS)
-			target.emote("collapse")
 			target.drop_all_held_items()
 
 /obj/item/melee/vampirearms/katana/kosa
@@ -961,10 +983,7 @@
 /obj/item/melee/vampirearms/tzimisce/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, CURSED_ITEM_TRAIT)
-	if(HAS_TRAIT(owner, TRAIT_WARRIOR))
-		src.attack_speed = CLICK_CD_MELEE * 0.5
-	else
-		src.attack_speed = CLICK_CD_MELEE
+	attack_speed = CLICK_CD_MELEE
 
 /obj/item/melee/vampirearms/tzimisce/shock/afterattack(atom/target, mob/living/carbon/user, proximity)
 	if(!proximity)

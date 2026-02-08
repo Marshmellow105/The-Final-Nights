@@ -56,8 +56,6 @@
 	transfer_to.setToxLoss(target_toxin_damage)
 	var/target_clone_damage = ceil(transfer_from.getCloneLoss() / division_parameter)
 	transfer_to.setCloneLoss(target_clone_damage)
-	if(HAS_TRAIT(transfer_from, TRAIT_WARRIOR) && !HAS_TRAIT(transfer_to, TRAIT_WARRIOR))
-		ADD_TRAIT(transfer_to, TRAIT_WARRIOR, ROUNDSTART_TRAIT)
 
 	transfer_from.fire_stacks = transfer_to.fire_stacks
 	transfer_from.on_fire = transfer_to.on_fire
@@ -143,10 +141,11 @@
 		var/mob/living/carbon/human/human_transformation = trans
 		var/datum/species/garou/G = human_transformation.dna.species
 		if(G.glabro)
-			human_transformation.remove_overlay(PROTEAN_LAYER)
+			if(!HAS_TRAIT(human_transformation, TRAIT_FAIR_GLABRO))
+				human_transformation.remove_overlay(PROTEAN_LAYER)
 			G.punchdamagelow = G.punchdamagelow-15
 			G.punchdamagehigh = G.punchdamagehigh-15
-			human_transformation.physique = human_transformation.physique-2
+			human_transformation.st_remove_stat_mod(STAT_STRENGTH, "glabro_form")
 			human_transformation.physiology.armor.melee = human_transformation.physiology.armor.melee-15
 			human_transformation.physiology.armor.bullet = human_transformation.physiology.armor.bullet-15
 			var/matrix/M = matrix()
@@ -378,7 +377,11 @@
 	crinos.mind = trans.mind
 	crinos.gender = trans.gender
 	crinos.update_blood_hud()
-	crinos.physique = crinos.physique+3
+	crinos.st_add_stat_mod(STAT_STRENGTH, 4, "crinos_form")
+	crinos.st_add_stat_mod(STAT_DEXTERITY, 1, "crinos_form")
+	crinos.st_add_stat_mod(STAT_STAMINA, 3, "crinos_form")
+	crinos.st_add_stat_mod(STAT_MANIPULATION, -10, "crinos_form")
+	crinos.st_add_stat_mod(STAT_APPEARANCE, -10, "crinos_form")
 	transfer_damage_and_traits(trans, crinos)
 	crinos.add_movespeed_modifier(/datum/movespeed_modifier/crinosform)
 	crinos.update_sight()
@@ -415,7 +418,6 @@
 	cor_crinos.mind = trans.mind
 	cor_crinos.gender = trans.gender
 	cor_crinos.update_blood_hud()
-	cor_crinos.physique = cor_crinos.physique+3
 	transfer_damage_and_traits(trans, cor_crinos)
 	cor_crinos.add_movespeed_modifier(/datum/movespeed_modifier/crinosform)
 	cor_crinos.update_sight()
@@ -486,6 +488,8 @@
 	corvid.bloodpool = trans.bloodpool
 	corvid.masquerade_score = trans.masquerade_score
 	corvid.nutrition = trans.nutrition
+	if(HAS_TRAIT(trans, TRAIT_WYRMTAINTED))
+		ADD_TRAIT(corvid, TRAIT_WYRMTAINTED, "wyrm_tainted")
 	corvid.mind = trans.mind
 	corvid.gender = trans.gender
 	corvid.update_blood_hud()

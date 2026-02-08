@@ -27,6 +27,7 @@
 	GLOB.human_list += src
 	phonevoicetag = length(GLOB.human_list)+10
 
+
 /mob/living/carbon/human/proc/setup_human_dna()
 	//initialize dna. for spawned humans; overwritten by other code
 	create_dna(src)
@@ -45,7 +46,7 @@
 
 /mob/living/carbon/human/ZImpactDamage(turf/T, levels)
 	if(!HAS_TRAIT(src, TRAIT_FREERUNNING) || levels > 1)
-		if(src.athletics < 5) // falling off one level
+		if(st_get_stat(STAT_ATHLETICS) < 5) // falling off one level
 			return ..()
 	visible_message("<span class='danger'>[src] makes a hard landing on [T] but remains unharmed from the fall.</span>", \
 					"<span class='userdanger'>You brace for the fall. You make a hard landing on [T] but remain unharmed.</span>")
@@ -556,7 +557,7 @@
 				var/counter = 1
 				while(R.fields[text("com_[]", counter)])
 					counter++
-				R.fields[text("com_[]", counter)] = text("Made by [] on [] [], []<BR>[]", allowed_access, station_time_timestamp(), time2text(world.realtime, "MMM DD"), GLOB.year_integer+540, t1)
+				R.fields[text("com_[]", counter)] = text("Made by [] on [] [], []<BR>[]", allowed_access, station_time_timestamp(), time2text(world.realtime, "MMM DD"), CURRENT_STATION_YEAR, t1)
 				to_chat(usr, "<span class='notice'>Successfully added comment.</span>")
 				return
 	// TFN EDIT ADDITION START: view character headshot & big flavortext via examine
@@ -1283,8 +1284,6 @@
 				underwear_visibility = UNDERWEAR_HIDE_UNDIES | UNDERWEAR_HIDE_SHIRT | UNDERWEAR_HIDE_SOCKS
 		update_body()
 	return
-
-
 
 /mob/living/carbon/human/species
 	var/race = null

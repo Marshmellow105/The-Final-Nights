@@ -5,7 +5,7 @@
 
 	switch(auspice.tribe.name)
 		if("Galestalkers", "Ghost Council", "Hart Wardens", "Get of Fenris", "Black Furies", "Silent Striders", "Red Talons", "Silver Fangs", "Stargazers", "Corax")
-			if(istype(get_area(src), /area/vtm/forest))
+			if(istype(get_area(src), /area/vtm/forest/caves))
 				SEND_SIGNAL(SSmasquerade, COMSIG_PLAYER_MASQUERADE_REINFORCE, src)
 
 		if("Bone Gnawers", "Children of Gaia", "Shadow Lords", "Corax")
@@ -17,13 +17,13 @@
 				SEND_SIGNAL(SSmasquerade, COMSIG_PLAYER_MASQUERADE_REINFORCE, src)
 
 		if("Black Spiral Dancers")
-			if(istype(get_area(src), /area/vtm/interior/endron_facility))
+			if(istype(get_area(src), /area/vtm/interior/wyrm_corrupted))
 				SEND_SIGNAL(SSmasquerade, COMSIG_PLAYER_MASQUERADE_REINFORCE, src)
 
 
 /datum/species/garou/spec_life(mob/living/carbon/human/H)
 	. = ..()
-	if(HAS_TRAIT(H, TRAIT_UNMASQUERADE) || HAS_TRAIT(src, TRAIT_WYRMTAINTED) || glabro)
+	if(HAS_TRAIT(H, TRAIT_UNMASQUERADE) || HAS_TRAIT(src, TRAIT_WYRMTAINTED) || (glabro && !HAS_TRAIT(H, TRAIT_FAIR_GLABRO)))
 		SEND_SIGNAL(H, COMSIG_MASQUERADE_VIOLATION)
 
 	if(COOLDOWN_FINISHED(H, bloodpool_restore))

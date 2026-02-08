@@ -93,7 +93,13 @@
 #define CAT_SOUP	"Soups"
 #define CAT_SPAGHETTI	"Spaghettis"
 #define CAT_ICE	"Frozen"
+#define CAT_MEXICAN "Mexican Food"
 #define CAT_DRINK "Drinks"
+// TFN EDIT ADD
+#define CAT_CONSTRUCTION "Construction"
+#define CAT_WINDOWS "Windows"
+#define CAT_DOORS "Doors"
+// TFN EDIT ADD END
 
 //rcd modes
 #define RCD_FLOORWALL 0
